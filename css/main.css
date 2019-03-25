@@ -1,0 +1,82 @@
+/* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+
+body { /* General style rules for the body section */
+	background-color:hotpink;
+	color: green;
+	text-align: center;
+}
+
+h3 { /* Matches elements with h3 tag */
+	color: blue;
+}
+h2 { /* Matches elements with h3 tag */
+	color: blue;
+}
+
+#div1 { /* Matches element with id=SimpleDiv */
+	background-color: teal;
+
+	color: black;
+
+
+	border-style: solid groove;
+  border-width: 5px;
+	border-color: red;
+	margin: 5%;
+	padding: 6px;
+	float: left;
+	width: 20%;
+}
+
+#showcase{
+	background-image:url('../images/background.jpg');
+	background-size:cover;
+	background-position:center;
+	height: 100vh;
+	padding: 0%;
+}
+
+#div2 {
+	background-color: red;
+	color: black;
+	border-style: solid groove;
+	border-width: 5px;
+	border-color: grey;
+	margin: 5%;
+	padding: 6px;
+	float: left;
+	width: 20%;
+}
+#div3 {
+	background-color:
+	margin: 5%;
+	padding: 6%;
+	float: left;
+	width: 6px
+}
+
+body{
+	margin:0%;
+}
+#div4 {
+	background-image:url('../images/error.jpg');
+	background-size:cover;
+	background-position:center;
+	height: 100vh;
+	padding: 0%;
+
+}
+#div5 {
+	background-color: teal;
+
+	color: black;
+
+
+	border-style: solid groove;
+  border-width: 5px;
+	border-color: red;
+	margin: 5%;
+	padding: 6px;
+	float: left;
+	width: 20%;
+}
