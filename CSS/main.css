@@ -1,51 +1,82 @@
 /* Ref:  http://www.w3schools.com/css/css_syntax.asp */
-body, html {
-	height: 100%;
-	width: 100%;
-}
 
 body { /* General style rules for the body section */
-	background-color:aqua;
-	color:green;
+	background-color:hotpink;
+	color: green;
 	text-align: center;
 }
 
 h3 { /* Matches elements with h3 tag */
-	color: Pink;
+	color: blue;
+}
+h2 { /* Matches elements with h3 tag */
+	color: blue;
 }
 
 #div1 { /* Matches element with id=SimpleDiv */
-	background-color: gray;
+	background-color: teal;
 
-	color: hotpink;
+	color: black;
 
 
 	border-style: solid groove;
   border-width: 5px;
-	border-color: green;
-	margin: 5%;
-	padding: 6px;
-}
-
-#div2 {
-/*	background-color: #CC1A54;*/
+	border-color: red;
 	margin: 5%;
 	padding: 6px;
 	float: left;
 	width: 20%;
 }
 
-#div3 {
-/*	background-color: #F1FF47;*/
-	margin: 5%;
-	padding: 6px;
-	float: right;
-	width: 50%;
+#showcase{
+	background-image:url('../images/background.jpg');
+	background-size:cover;
+	background-position:center;
+	height: 100vh;
+	padding: 0%;
 }
 
-#div4 {
-/*	background-color: #D307FF;*/
+#div2 {
+	background-color: red;
+	color: black;
+	border-style: solid groove;
+	border-width: 5px;
+	border-color: grey;
 	margin: 5%;
 	padding: 6px;
-	clear: both;
+	float: left;
+	width: 20%;
+}
+#div3 {
+	background-color:
+	margin: 5%;
+	padding: 6%;
+	float: left;
+	width: 6px
+}
+
+body{
+	margin:0%;
+}
+#div4 {
+	background-image:url('../images/error.jpg');
+	background-size:cover;
+	background-position:center;
+	height: 100vh;
+	padding: 0%;
+
+}
+#div5 {
+	background-color: teal;
+
+	color: black;
+
+
+	border-style: solid groove;
+  border-width: 5px;
+	border-color: red;
+	margin: 5%;
+	padding: 6px;
+	float: left;
+	width: 20%;
 }
